@@ -22,7 +22,7 @@ jobs:
           
           
         - name: Step 3 - Have GitHub Actions Build Maven Project
-          run: mvn -B package --file pom.xml
+          run: mvn  package  pom.xml
           
         - name : step 4 afficher tout les fichier avec ceux archiver "-a"
           run : 
